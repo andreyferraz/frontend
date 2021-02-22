@@ -21,7 +21,7 @@
             <small>
               {{user.email}}
             </small>
-           <a class="destroy" @click="destroyUser(user)"></a>
+            <a class="destroy" @click="destroyUser(user.id)"></a>
           </li>
         </ul>
       </section>
